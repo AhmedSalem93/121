@@ -3,7 +3,7 @@ import React from 'react'
 const Scroll = () => {
   return (
     <div className='homeScroll'>
-        <a href='#' className='homeScrollBtn btnFlex'>
+        <a href='#about' className='homeScrollBtn btnFlex'>
             <svg
                     width="50px"
                     height="50px"

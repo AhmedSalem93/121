@@ -36,9 +36,13 @@
     transition: .3s;
 }
 .navIcon,
-.navCloss,
+.navClose,
 .navToggle{
     display: none;
+}
+/* change header */
+.showHeader{
+    box-shadow: 0 -1px 4px rgba( 0, 0, 0, 0.15);
 }
 /* ACTIVE_LINK */
 .activeLink,
@@ -79,7 +83,7 @@
     .navIcon{
         font-size: 1.2rem;
     }
-    .navCloss{
+    .navClose{
         position: absolute;
         right: 1.3rem;
         bottom: .5rem;
@@ -87,14 +91,14 @@
         cursor: pointer;
         color: var(--title-color);
     }
-    .navCloss:hover{
+    .navClose:hover{
         color: var(--title-color-dark);
     }
     .navToggle{
         font-size: 1.1rem;
         cursor: pointer;
     }
-    .navIcon,.navCloss,.navToggle{
+    .navIcon,.navClose    ,.navToggle{
         display: block;
     }
 }

@@ -19,11 +19,11 @@ const About = () => {
             <img src={AboutImg} alt='' className='aboutImg'/>
             <div className='aboutData'>
               <Info />
-              <p className='aboutDescriptin'>
+              <p className='aboutDescription'>
                 Frontend developer, I create web pages with UI / UX user interface, I have years of experience and many clients are happy with the projects carried out.
               </p>
               <a download="" href={CV} className='btn btnFlex'>
-                Danwnload CV
+                Download CV
                 <svg
                 className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
